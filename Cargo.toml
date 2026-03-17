@@ -16,9 +16,6 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 dotenvy = "0.15"
 anyhow = "1"
-bs58 = "0.5"
-ed25519-dalek = { version = "2", features = ["verify"] }
-hex = "0.4"
 
 [profile.release]
 opt-level = 3
